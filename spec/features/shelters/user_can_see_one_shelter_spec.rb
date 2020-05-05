@@ -8,7 +8,7 @@ RSpec.describe "user sees one shelter" do
                               state: "CO",
                               zip: 80223 )
 
-    visit shelter_path
+    visit shelters_path
 
     click_link shelter.name
 
