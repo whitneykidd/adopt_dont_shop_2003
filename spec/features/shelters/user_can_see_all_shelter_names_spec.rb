@@ -13,9 +13,9 @@ RSpec.describe "shelter index page", type: feature do
                               city: "Englewood",
                               state: "CO",
                               zip: 80110 )
-  visit "/shelters"
+    visit "/shelters"
 
-  expect(page).to have_content(shelter1.name)
-  expect(page).to have_content(shelter2.name)
+    expect(page).to have_link(shelter1.name)
+    expect(page).to have_link(shelter2.name)
   end
 end
