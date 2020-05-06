@@ -184,6 +184,8 @@
         1,
         1,
         1,
+        1,
+        1,
         null
       ],
       "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/helpers/application_helper.rb": [
@@ -236,6 +238,38 @@
         null,
         null
       ],
+      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/spec/features/shelters/user_can_update_a_shelter_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/models/shelter.rb": [
         1,
         null
@@ -252,7 +286,7 @@
         null,
         null,
         1,
-        1,
+        3,
         null,
         null,
         1,
@@ -265,6 +299,22 @@
         1,
         1,
         1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
         1,
         1,
         null,
@@ -276,6 +326,6 @@
         null
       ]
     },
-    "timestamp": 1588725844
+    "timestamp": 1588797951
   }
 }
