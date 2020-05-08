@@ -22,7 +22,7 @@ RSpec.describe "view pet index page", type: feature do
                         shelter_id: shelter1.id
                       )
 
-      pet3 = Pet.create(image: "https://cdn.akc.org/content/hero/lab_owner_hero.jpg",
+      pet2 = Pet.create(image: "https://cdn.akc.org/content/hero/lab_owner_hero.jpg",
                         name: "Lucy",
                         age: "6",
                         sex: "Female",
