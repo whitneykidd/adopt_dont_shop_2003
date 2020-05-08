@@ -1,0 +1,7 @@
+<% @pet = Pet.find(params[:id]) %>
+<img src = "<%= @pet.image %>" alt:="<%= @pet.name %>" </br>
+<h1><%= @pet.name %></h1>
+<p>Description: <%= @pet.description %></p>
+<p>Age: <%= @pet.age %></p>
+<p>Sex: <%= @pet.sex %></p>
+<p>Adoption Status: <%= @pet.status %></p>
