@@ -187,10 +187,45 @@
         1,
         1,
         1,
+        null,
+        1,
         null
       ],
       "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/spec/features/shelters/user_can_create_new_shelter_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/spec/features/shelters/user_can_delete_a_shelter_spec.rb": [
@@ -297,11 +332,56 @@
         null,
         null
       ],
-      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/models/shelter.rb": [
+      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/spec/models/pet_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/models/pet.rb": [
+        1,
         1,
         null
       ],
       "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/spec/models/shelter_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/models/shelter.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/controllers/pets_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/controllers/application_controller.rb": [
         1,
         1,
         null
@@ -322,13 +402,6 @@
         1,
         1,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
         null,
         null,
         1,
@@ -348,16 +421,13 @@
         null,
         null,
         1,
-        1,
         null,
-        null
-      ],
-      "/Users/whitney/turing/2module/projects/adopt_dont_shop_2003/app/controllers/application_controller.rb": [
         1,
-        1,
+        2,
+        null,
         null
       ]
     },
-    "timestamp": 1588798670
+    "timestamp": 1588898757
   }
 }
