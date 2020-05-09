@@ -1,7 +1,7 @@
 <h1>Available Pets</h1>
 
 <% @pets.each do |pet| %>
-<img src = "<%= pet.image %>" alt:="<%= pet.name %>" <br/>
+<img src = "<%= pet.image %>" alt:="<%= pet.name %>" <br/><br/>
 <%= link_to 'Update Pet', "/pets/#{pet.id}/edit" %> |
 <%= link_to  "Delete Pet", "/pets/#{pet.id}", method: :delete, data: {confirm: "Confirm Pet Deletion"} %><br/>
 <h2><%= link_to "#{pet.name}", "/pets/#{pet.id}" %> </h2>
