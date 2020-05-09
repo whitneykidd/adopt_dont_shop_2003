@@ -1,6 +1,6 @@
 <% @pet = Pet.find(params[:id]) %>
 <img src = "<%= @pet.image %>" alt:="<%= @pet.name %>" </br>
-<h1><%= @pet.name %></h1>
+<h2><%= link_to "#{@pet.name}", "/pets/#{@pet.id}" %> </h2>
 <p>Description: <%= @pet.description %></p>
 <p>Age: <%= @pet.age %></p>
 <p>Sex: <%= @pet.sex %></p>
