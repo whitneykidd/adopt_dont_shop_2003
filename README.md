@@ -213,7 +213,7 @@ Then I see each Pet in the system including the Pet's:
 ```
 
 ```
-[ ] done
+[x] done
 
 User Story 8, Shelter Pets Index
 
@@ -243,7 +243,7 @@ Then I see the pet with that id including the pet's:
 ```
 
 ```
-[ ] done
+[x] done
 
 User Story 10, Shelter Pet Creation
 
