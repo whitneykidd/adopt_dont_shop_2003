@@ -22,7 +22,7 @@ RSpec.describe "view shelter pets index page" do
                         shelter_id: shelter1.id)
 
 
-      visit "/shelters/#{shelter1.id}"
+      visit "/shelters/#{shelter1.id}/pets"
 
       # expect(page).to have_css("img[scr*= '#{pet1.image}']")
       expect(page).to have_content(pet1.name)
