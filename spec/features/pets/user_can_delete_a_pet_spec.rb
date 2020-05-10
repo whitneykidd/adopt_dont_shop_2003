@@ -31,8 +31,6 @@ RSpec.describe "view pet show page", type: feature do
     expect(page).to have_content(pet2.age)
     expect(page).to have_content(pet2.sex)
     expect(page).to have_content(pet2.shelter.name)
-
-    # expect(page).to_not have_content(pet1.name)
     end
   end
 end

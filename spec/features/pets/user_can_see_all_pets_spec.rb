@@ -45,10 +45,3 @@ RSpec.describe "view pet index page", type: feature do
     end
   end
 end
-
-
-# - image
-# - name
-# - approximate age
-# - sex
-# - name of the shelter where the pet is currently located
