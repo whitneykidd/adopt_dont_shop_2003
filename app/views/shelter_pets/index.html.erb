@@ -5,9 +5,9 @@
 <%= link_to 'Update Pet', "/pets/#{pet.id}/edit" %> |
 <%= link_to  "Delete Pet", "/pets/#{pet.id}", method: :delete, data: {confirm: "Confirm Pet Deletion"} %><br/>
 <h2><%= link_to "#{pet.name}", "/pets/#{pet.id}" %> </h2>
-<p> Age: <%= pet.age %> </p>
-<p> Sex: <%= pet.sex %> </p>
+<p> <b>Age:</b> <%= pet.age %> </p>
+<p> <b>Sex:</b> <%= pet.sex %> </p>
 <% end %>
 
 
-<a href= "/shelters/<%=@shelter.id%>/pets/new">Create Pet</a>
+<div class="body_link"><a href= "/shelters/<%=@shelter.id%>/pets/new">Create Pet</a>
