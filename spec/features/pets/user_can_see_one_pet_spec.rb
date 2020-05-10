@@ -18,22 +18,9 @@ RSpec.describe "user sees one pet" do
                     )
     visit pets_path
 
-    click_link pet1.name
-
-    expect(page).to have_content(pet1.name)
-    expect(page).to have_content(pet1.description)
+    click_link(pet1.name, match: :first)
+    expect(page).to have_content("Milo")
     expect(page).to have_content(pet1.age)
     expect(page).to have_content(pet1.sex)
-    expect(page).to have_content(pet1.status)
   end
 end
-
-# When I visit '/pets/:id'
-# Then I see the pet with that id including the pet's:
-# - image
-# - name
-# - description
-# - approximate age
-# - sex
-# - adoptable/pending adoption status
-# ```

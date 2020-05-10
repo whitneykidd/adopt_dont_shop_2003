@@ -38,10 +38,3 @@ RSpec.describe "update a pet", type: feature do
     expect(page).to have_content("3")
     end
 end
-
-
-
-# When I click the button to submit the form "Update Pet"
-# Then a `PATCH` request is sent to '/pets/:id',
-# the pet's data is updated,
-# and I am redirected to the Pet Show page where I see the Pet's updated information

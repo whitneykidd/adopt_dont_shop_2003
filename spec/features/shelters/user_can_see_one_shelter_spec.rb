@@ -10,7 +10,8 @@ RSpec.describe "user sees one shelter" do
 
     visit shelters_path
 
-    click_link shelter.name
+    click_link(shelter.name, match: :first)
+
 
     expect(page).to have_content(shelter.name)
     expect(page).to have_content(shelter.address)

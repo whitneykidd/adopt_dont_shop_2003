@@ -9,11 +9,6 @@ RSpec.describe "create shelter pet", type: feature do
                                 state: "CO",
                                 zip: 80223 )
 
-      # pet1 = Pet.create(image: "https://ichef.bbci.co.uk/wwfeatures/live/976_549/images/live/p0/7z/n7/p07zn7p7.jpg",
-      #                   name: "Milo",
-      #                   age: "2",
-      #                   sex: "Male",
-      #                   shelter_id: shelter1.id)
      visit "/shelters/#{shelter1.id}/pets"
 
      click_link "Create Pet"
@@ -26,25 +21,13 @@ RSpec.describe "create shelter pet", type: feature do
      fill_in "Approximate Age", with: "5"
      fill_in "Sex", with: "Female"
 
+
      click_button "Create Pet"
 
+     pet = Pet.last
      expect(current_path).to eq("/shelters/#{shelter1.id}/pets")
+     expect(page).to have_content(pet.name)
+     expect(page).to have_content(pet.age)
+     expect(page).to have_content(pet.sex)
     end
 end
-
-# As a visitor
-# When I visit a Shelter Pets Index page
-# Then I see a link to add a new adoptable pet for that shelter "Create Pet"
-# When I click the link
-# I am taken to '/shelters/:shelter_id/pets/new' where I see a form to add a new adoptable pet
-# When I fill in the form with the pet's:
-# - image
-# - name
-# - description
-# - approximate age
-# - sex ('female' or 'male')
-# And I click the button "Create Pet"
-# Then a `POST` request is sent to '/shelters/:shelter_id/pets',
-# a new pet is created for that shelter,
-# that pet has a status of 'adoptable',
-# and I am redirected to the Shelter Pets Index page where I can see the new pet listed
