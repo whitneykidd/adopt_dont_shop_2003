@@ -86,6 +86,7 @@ img {
  h1 {
    margin-top: 5%;
    font-size: 22;
+   text-shadow: 2px 2px #F7C26E;
  }
 
  input {
@@ -139,8 +140,4 @@ img {
 
  .column {
    flex: 50%;
- }
-
- .title {
-   font-weight: bold;
  }
